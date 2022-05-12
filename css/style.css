@@ -1,0 +1,151 @@
+@import url('https://fonts.google.com/specimen/Quicksand?query=quicksand');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Quicksand
+}
+
+.active {
+    color: #3BB77E;
+}
+
+.brand {}
+
+.brand__img {
+    height: 34.26px;
+}
+
+.brand__title {
+    float: right;
+    clear: both
+}
+
+.brand__title--up {
+    font-size: 16px;
+    color: #3BB77E
+}
+
+.brand__title--down {
+    font-size: 12px
+}
+
+.menu {}
+
+.menu__container {
+    z-index: 9999;
+}
+
+.menu__searchBar {
+    border: none;
+    width: 15rem
+}
+
+.menu__searchBarButton {
+    background-color: #3BB77E;
+}
+
+.wishlist__item {
+    background-color: #3BB77E;
+}
+
+.cart__item {
+    background-color: #3BB77E;
+}
+
+.cart__text {
+    color: #3BB77E;
+}
+
+.phonecall {
+    color: #3BB77E;
+}
+
+.section__title {
+    justify-content: space-between;
+}
+
+.fa-star--true {
+    color: #FDC040;
+}
+
+.text_color--basegreen {
+    color: #3BB77E
+}
+
+.text__sizeS {
+    font-size: 12px
+}
+
+.feature__btn__add {
+    background-color: #DEF9EC;
+    float: right;
+    color: #3BB77E
+}
+
+.daily__badge {
+    background: #FFD480;
+    font-size: 12px;
+    color: white
+}
+
+.progress {
+    height: 0.25rem
+}
+
+.progress .progress-bar {
+    width: 75%;
+    background-color: #3BB77E
+}
+
+.btn__addToCart {
+    background-color: #DEF9EC;
+    color: #3BB77E
+}
+
+.ruler {
+    border: 1px solid #3BB77E;
+    background: #3BB77E
+}
+
+@media screen and (max-width: 1400px) {
+    .icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .icon2 {
+        display: none;
+    }
+    .them {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .icon4 {
+        display: none
+    }
+}
+
+@media screen and (max-width:520px) {
+    .icon3 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .explore {
+        width: 14.2%;
+    }
+    .feature {
+        width: 19.9%
+    }
+}
+
+@media screen and (min-width: 1456px) {
+    .feature {
+        width: 19.9%
+    }
+}
